@@ -1,0 +1,5 @@
+{
+  "flow.pathToFlow": "${workspaceFolder}/node_modules/flow-bin/vendor/flow",
+  "typescript.validate.enable": false,
+  "javascript.validate.enable": false,
+}
