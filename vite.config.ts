@@ -2,6 +2,7 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import babel from "vite-plugin-babel";
 import { extname } from "path";
+import { run } from "vite-plugin-run";
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -21,5 +22,15 @@ export default defineConfig({
       },
     }),
     react(),
+    run({
+      input: [
+        {
+          name: "Flow Typecheck",
+          run: ["flow"],
+          pattern: ["**/*.js", "**/*.jsx"],
+        },
+      ],
+      silent: false,
+    }),
   ],
 });
