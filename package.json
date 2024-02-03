@@ -9,6 +9,7 @@
     "format": "prettier ./src --write --ignore-path .gitignore && git update-index --again",
     "lint": "eslint . --ext jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
+    "serve": "npm run build && npm run preview",
     "flow": "flow"
   },
   "dependencies": {

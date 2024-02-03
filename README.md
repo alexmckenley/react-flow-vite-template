@@ -35,38 +35,37 @@ This is a [React](https://reactjs.org) + [Flow](https://flow.org/) boilerplate b
 
 ## Other commands
 
-### Lint commands
+### Lint
 
 ```bash
 yarn run lint
 ```
 
-### Build commands
+### Format 
+
+```bash
+yarn run format
+```
+
+### Build
 
 ```bash
 yarn run build
 ```
 
-### Run the app in production mode at http://localhost:3000.
+### Run the app in production mode
 
 ```bash
 yarn run serve
 ```
 
-### Test commands
-
-- Run unit tests and watch
-  ```bash
-  yarn run test:unit
-  ```
-- Run unit tests with coverage
-  ```bash
-  yarn run test:unit:coverage
-  ```
-- Run e2e tests
-  ```bash
-  yarn run test:e2e
-  ```
+## VSCode configuration
+For real-time IDE hints in VSCode, install the [Flow Language Support](https://marketplace.visualstudio.com/items?itemName=flowtype.flow-for-vscode) extension and set the following configuration value:
+```json
+{
+  "flow.pathToFlow": "${workspaceFolder}/node_modules/flow-bin/vendor/flow",
+}
+```
 
 ## License
 
