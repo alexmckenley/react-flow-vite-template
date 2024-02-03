@@ -1,6 +1,6 @@
-# React + Flow Component Syntax template with Vite
+# Vite + React + Flow Template 
 
-This is a [React](https://reactjs.org) + [Flow](https://flow.org/) boilerplate built with [Vite](https://vitejs.dev).
+Simple React app template built with Flow component sytnax! 🔥
 
 ## Getting started
 
