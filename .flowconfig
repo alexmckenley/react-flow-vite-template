@@ -16,7 +16,7 @@
 [lints]
 
 [options]
-module.name_mapper.extension='svg' -> '<PROJECT_ROOT>/src/SVGModule.js.flow'
+module.name_mapper.extension='svg' -> '<PROJECT_ROOT>/src/SVGStub.js.flow'
 
 experimental.component_syntax=true
 experimental.component_syntax.hooklike_functions=true

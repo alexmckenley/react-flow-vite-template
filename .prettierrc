@@ -1,0 +1,16 @@
+{
+  "arrowParens": "avoid",
+  "singleQuote": true,
+  "trailingComma": "all",
+  "bracketSpacing": false,
+  "bracketSameLine": true,
+  "plugins": ["prettier-plugin-hermes-parser"],
+  "overrides": [
+    {
+      "files": ["*.js", "*.jsx", "*.flow"],
+      "options": {
+        "parser": "hermes"
+      }
+    }
+  ]
+}
